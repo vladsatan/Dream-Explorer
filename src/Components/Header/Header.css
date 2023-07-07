@@ -1,0 +1,66 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: #ffa50029;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box img {
+    width: 70px;
+}
+
+.logo-box h1 {
+    color: #636363;
+}
+
+.signIN {
+    width: 100px;
+    height: 36px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.signIN:hover {
+    background-color: #ffc55a;
+}
+
+.account-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.account-info img {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-left: 10px;
+}
+
+.name-email h1 {
+    font-size: 20px;
+}
+
+.name-email p {
+    font-size: 14px;
+    color: #636363;
+}
+
+.photo-bg {
+    background-color: rgb(255 154 49 / 66%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    font-weight: 600;
+    margin-left: 10px;
+}

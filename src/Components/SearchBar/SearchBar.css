@@ -1,0 +1,32 @@
+.SearchBar {
+    display: flex;
+}
+
+.SearchBar input {
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #97979700;
+    background-color: #97979757;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.SearchBar input:focus {
+    border: 1px solid orange;
+}
+
+.SearchBar button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: orange;
+    font-weight: 600;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: .2s;
+}
+
+.SearchBar button:hover {
+    background-color: #ffc55a;
+}
